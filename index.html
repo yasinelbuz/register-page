@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Register Page</title>
+
+   <style>
+      h1,
+      label,
+      span,
+      input {
+         display: block;
+      }
+
+      * {
+         box-sizing: border-box;
+      }
+
+      input {
+         width: 100%;
+         padding: 5px;
+         margin-top: 3px;
+      }
+
+      label {
+         margin-bottom: 10px;
+      }
+
+      body {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .conatiner {
+         width: 400px;
+         background-color: #efefef;
+         border: 1px solid #ccc;
+         padding: 20px;
+         border-radius: 20px;
+         ;
+      }
+
+      .check-form-kosul {
+         display: flex;
+         justify-content: flex-start;
+         align-items: flex-start;
+      }
+
+      .check-form-kosul input {
+         width: auto;
+      }
+
+      button {
+         cursor: pointer;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="conatiner">
+
+      <h1>Create and account</h1>
+
+      <label>
+         <span>Your email</span>
+         <input type="text" placeholder="name@company.com" class="email">
+      </label>
+
+      <label>
+         <span>Password</span>
+         <input type="password" placeholder="password" class="pass">
+      </label>
+
+      <label>
+         <span>Confirm password</span>
+         <input type="password" placeholder="Confirm password" class="confirm-pass">
+      </label>
+
+      <label class="check-form-kosul">
+         <input type="checkbox" class="checkbox-kosul">
+         <span>I accept the Terms and Conditions</span>
+      </label>
+
+      <button class="register-btn">Create an account</button>
+
+   </div>
+
+   <div class="container">
+      <div style="margin-top:20px" class="show">
+
+      </div>
+   </div>
+</body>
+<script src="main.js"></script>
+
+</html>
